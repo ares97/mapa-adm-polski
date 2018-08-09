@@ -1,0 +1,27 @@
+<style>
+    path {
+        fill: #ccc;
+        stroke: #fff;
+        stroke-width: .5px;
+    }
+
+    .selected {
+        fill: green;
+    }
+
+    path:hover {
+        fill: green;
+    }
+
+    svg text,
+    svg circle {
+        pointer-events: none;
+    }
+</style>
+
+<svg id="svg1"></svg>
+<p id="woj"></p>
+
+<script src="//d3js.org/d3.v3.min.js"></script>
+<script src="//d3js.org/topojson.v1.min.js"></script>
+<script src="base.js"></script>
